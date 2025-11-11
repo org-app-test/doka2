@@ -1,4 +1,4 @@
-# Docs main page
+# DocsMain
 
 # 📘 Project Documentation
 

@@ -3,7 +3,9 @@ description: Bookmark this to keep an eye on my project updates!
 # repository: org-app-test/doka2
 repository: dummy/dummy
 
-remote_theme: pages-themes/time-machine@v0.2.0
+# remote_theme: pages-themes/time-machine@v0.2.0
+# remote_theme: benbalter/retlab
+remote_theme: just-the-docs/just-the-docs
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
@@ -11,3 +13,18 @@ plugins:
 versions:
   - v2.0
   - v1.0
+
+# # Add defaults to exclude specific files from nav
+# defaults:
+#   - scope:
+#       path: "docs/v1.0"
+#       glob: "index.md"
+#     values:
+#       nav_exclude: true
+#       # search_exclude: true   # uncomment if you also want to hide from search
+#   - scope:
+#       path: ""          # root of the docs folder (relative to this _config.yml)
+#       glob: "404.md"    # match the 404 page
+#     values:
+#       nav_exclude: true
+#       # search_exclude: true
