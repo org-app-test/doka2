@@ -8,6 +8,7 @@ repository: dummy/dummy
 remote_theme: just-the-docs/just-the-docs
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-sitemap
 
 # define available versions
 versions:
